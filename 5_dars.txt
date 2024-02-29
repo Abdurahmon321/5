@@ -1,0 +1,35 @@
+-- DROP TABLE IF EXISTS books;
+-- CREATE TABLE IF NOT EXISTS books(
+-- 	b_id INTEGER UNIQUE GENERATED ALWAYS AS IDENTITY,
+-- 	pages INTEGER,
+-- 	autos VARCHAR(20)
+-- );
+
+-- INSERT INTO books(pages, autos) VALUES
+-- (1000, 'ASDASD'),
+-- (10500, 'ASDASD');
+
+-- ALTER TABLE IF EXISTS books RENAME COLUMN pages TO varoqlar;
+-- ALTER TABLE IF EXISTS books RENAME COLUMN  autos TO after_b;
+
+-- SELECT * FROM books;
+-- CREATE SEQUENCE IF NOT EXISTS seq1;
+
+-- DROP TABLE IF EXISTS users;
+-- CREATE TABLE IF NOT EXISTS users(
+-- 	user_id INTEGER NOT NULL UNIQUE DEFAULT nextval('seq1'),
+-- 	full_name VARCHAR(50),
+-- 	phone VARCHAR(15),
+-- 	email VARCHAR(25),
+-- 	address VARCHAR(30)
+-- );
+
+-- ALTER TABLE IF EXISTS users ADD COLUMN IF NOT EXISTS hobby VARCHAR(50);
+-- ALTER TABLE IF EXISTS users ADD COLUMN IF NOT EXISTS yosh SMALLINT;
+-- ALTER TABLE IF EXISTS users RENAME COLUMN user_id TO foydaluvchi_raqami;
+-- ALTER TABLE IF EXISTS users RENAME COLUMN full_name TO toliq_ism;
+-- ALTER TABLE IF EXISTS users RENAME COLUMN phone TO telefon_raqam;
+-- ALTER TABLE IF EXISTS users RENAME COLUMN email TO elektron_pochta;
+-- ALTER TABLE IF EXISTS users RENAME COLUMN address TO yashash_manzil;
+
+-- SELECT * FROM users;
